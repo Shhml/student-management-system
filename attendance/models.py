@@ -2,6 +2,7 @@ from django.db import models
 from courses.models import Course
 from accounts.models import StudentProfile
 from django.contrib.auth.models import User
+
 from accounts.models import StaffProfile
 
 class Attendance(models.Model):
